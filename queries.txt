@@ -1,0 +1,24 @@
+Q2. QUERY: select 100.0*(max(s.salary) - min(s1.salary)) / max(s.salary) as percentage_diff from salaries s, salaries s1 where s.from_date=s1.from_date;
+Querying...
+11.309seconds
+Explore
+SQL
+Data
+Chart
+Export
+-------------------------------------------------------------------------------------------------------------------
+
+Q1: query: select dept_no, count(emp_no) from dept_manager group by dept_no;
+
+dept_no	count(emp_no)
+d001	2
+d002	2
+d003	2
+d004	4
+d005	2
+d006	4
+d007	2
+d008	2
+d009	4
+------------------------------------------------------------------------------------------------------------------- 
+Q3. QUERY:
